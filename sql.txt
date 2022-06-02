@@ -1,0 +1,21 @@
+
+TRUNCATE table order;
+TRUNCATE table banner; 
+TRUNCATE table banner_image; 
+TRUNCATE table banner_image_description;
+TRUNCATE table category;
+TRUNCATE table category_description;
+TRUNCATE table category_filter;
+TRUNCATE table category_mapping;
+TRUNCATE table config_email;
+TRUNCATE table confirm_payment;
+TRUNCATE table coupon;
+
+
+select * from coupon_category cc; 
+select * from coupon_history ch;
+select * from coupon_manufacturer cm ;
+select * from coupon_product cp ;
+select * from ecommerce.custom_field_customer_group;
+select * from ecommerce.shipping;
+select * from ecommerce.shipping_total;
