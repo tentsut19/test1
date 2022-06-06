@@ -19,3 +19,34 @@ select * from coupon_product cp ;
 select * from ecommerce.custom_field_customer_group;
 select * from ecommerce.shipping;
 select * from ecommerce.shipping_total;
+
+TRUNCATE table order;
+TRUNCATE table banner; 
+TRUNCATE table banner_image; 
+TRUNCATE table banner_image_description;
+TRUNCATE table category;
+TRUNCATE table category_description;
+TRUNCATE table category_filter;
+TRUNCATE table category_mapping;
+TRUNCATE table config_email;
+TRUNCATE table confirm_payment;
+TRUNCATE table coupon;
+
+
+select * from coupon_category cc; 
+select * from coupon_history ch;
+select * from coupon_manufacturer cm ;
+select * from coupon_product cp ;
+select * from ecommerce.custom_field_customer_group;
+select * from ecommerce.shipping;
+select * from ecommerce.shipping_total;
+
+CREATE TABLE `product_to_category` (
+`category_id` int NOT NULL,
+`product_id` int NOT NULL,
+PRIMARY KEY (`category_id`,`product_id`),
+KEY `category_id` (`category_id`),
+CONSTRAINT `FKbutbrtr8p0b1wjadkkfbqbme5` FOREIGN KEY (`category_id`) REFERENCES `category` (`category_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+
