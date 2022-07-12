@@ -340,7 +340,7 @@
   "products_entry_cycle": "Cycle",
   "products_entry_frequency": "Frequency",
   "products_entry_part_number": "Part Number",
-  "products_entry_engine_model": "Engine model",
+  "products_entry_engine_code": "Engine Code",
   "products_help_keyword": "Do not use spaces, instead replace spaces with - and make sure the keyword is globally unique.",
   "products_help_sku": "Stock Keeping Unit",
   "products_help_upc": "Universal Product Code",

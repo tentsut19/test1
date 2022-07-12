@@ -269,7 +269,7 @@
     "products_entry_layout": "แทนที่เลเอาท์:",
     "products_entry_recurring": "ดูรายละเอียดที่เกิดขึ้นประจำ",
     "products_entry_part_number": "Part Number",
-    "products_entry_engine_model": "Engine model",
+    "products_entry_engine_code": "Engine Code",
     "products_help_keyword": "อย่าใช้ช่องว่างแทนที่จะแทนที่ช่องว่างด้วย - และให้แน่ใจว่าคำหลักที่ไม่ซ้ำกันทั่วโลก",
     "products_help_sku": "Stock Keeping Unit",
     "products_help_upc": "Universal Product Code",
